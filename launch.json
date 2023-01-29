@@ -7,11 +7,11 @@
     {
     "name": "(gdb) Launch", "type": "cppdbg",
     "request": "launch",
-    "miDebuggerPath": "D:\\GNU\\10 2021.10\\bin\\arm-none-eabi-gdb.exe",
+    "miDebuggerPath": "C:\\Users\\lance\\Desktop\\santana\\arm-gnu-toolchain-11.3.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-gdb.exe",
     "targetArchitecture": "arm",
     "filterStderr": true,
     "serverStarted": "Info\\ :\\ [\\w\\d\\.]*:\\ hardware",
-    "program": "D:\\UAQ\\Septimo_Semestre\\Microcontroladores\\Programas\\Practica_3TM4C123\\gcc\\main.axf",
+    "program": "C:\\Users\\lance\\Desktop\\santana\\Saul-Aboytes\\gcc\\main.axf",
     "args": [],
     "stopAtEntry": false,
     "cwd": "${workspaceRoot}",
@@ -20,7 +20,8 @@
     "MIMode": "gdb",
     "setupCommands": [
     { "text" : "target extended-remote :3333"},
-    { "text" : "load D:/UAQ/Septimo_Semestre/Microcontroladores/Programas/Practica_3TM4C123/gcc/main.axf"}
+    { "text" : "monitor halt"},
+    { "text" : "load C:/Users/lance/Desktop/santana/Saul-Aboytes/gcc/main.axf"}
     ]
     }
     ]
